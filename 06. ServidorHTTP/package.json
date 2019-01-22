@@ -1,0 +1,19 @@
+{
+  "name": "06.-servidorhttp",
+  "version": "2.0.0",
+  "description": "Primera App con servidor HTTP",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --require 'babel-register' src/index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Angy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
