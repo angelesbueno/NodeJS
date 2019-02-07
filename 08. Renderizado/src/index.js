@@ -24,7 +24,7 @@ router(app);
 
 
 
-// manejo de erro 404
+// manejo de error 404
 app.use((req, res, next) => {
     res.render('404', {
         title: 'Curso NodeJs Angy',
