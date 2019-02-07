@@ -1,0 +1,20 @@
+html
+    include includes/head.pug
+    body
+        include includes/header.pug
+        .container
+            h1.bd-title!= message
+
+        .container
+            .row
+                .col-md-4
+                    h5 Introducción a NodeJS
+                    ol
+                        li ¿Qué es NodeJS?
+                        li ¿Y NPM?
+                        li ¿Qué podemos hacer con NodeJS?
+                        li Características de NodeJS
+                        li Instalación
+                        li Comunidad y ecosistema
+                        li Hola Mundo!
+        include includes/footer.pug
