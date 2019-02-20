@@ -1,7 +1,7 @@
 import http from 'http';
 
 const server = http.createServer((request, response) => {
-  response.write('<h1>Curso de Node de OpenWebinars!</h1>');
+  response.write('<h1>Curso de NodeJS!</h1>');
   response.end();
 })
 
